@@ -1,0 +1,47 @@
+body{
+	background: url("billy.jpg");
+}
+header{
+	padding: 30px;
+	
+}
+a{
+
+	font-size: 40px;
+	text-decoration: none;
+	padding: 200px;
+	font-family: Impact;
+	color: white;
+	transition-duration: 500ms;
+
+
+}
+a:hover{
+	
+	font-size: 60px;	
+}
+
+li{
+	display: inline;
+}
+ul{
+	padding: 20px;
+	margin: 0px;
+
+}
+.video_1{
+	position: absolute;
+	top: 210px;
+	left: 150px;
+	
+}
+.video_2{
+	position: absolute;
+	top: 210px;
+	left: 1200px;
+}
+.video_3{
+	position: absolute;
+	top: 520px;
+	left: 1200px;
+}

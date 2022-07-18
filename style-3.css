@@ -1,0 +1,12 @@
+body{
+	background: url("billy.jpg");
+}
+.title{
+	font-size: 80px;
+	color: white;
+	font-family: Impact;
+	padding: 20px;
+}
+.video{
+	padding: 40px;
+}
