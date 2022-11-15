@@ -2,10 +2,47 @@ body {
 	background-image: url(billy.jpg);
 	background-repeat: no-repeat;
 }
+header li{
+	
+	display: inline-block;
+	font-size: 50px;
+	font-family: Impact;
+	padding: 50px;
+	transition-duration: 500ms;
 
+
+}
+header li:hover{
+	font-size: 70px;
+}
+header a{
+	text-decoration: none;
+	padding: 100px;
+
+}
 @media screen and (max-width: 1080px) {
 	body{
 		background-image: url(billy-mob.jpg);
 		background-size: 200%;
+		
+
+	}
+	@media screen and (max-width: 1080px){
+		header li{
+			font-size: 100px;
+			display: inline-table;
+			padding: 180px;
+			float: left;
+
+
+
+		}
+		ul{
+			margin-top: 20%;
+			margin-left: -25%;
+		}
+		
+		
+
 	}
 }
