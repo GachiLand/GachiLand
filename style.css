@@ -20,6 +20,24 @@ header a{
 	padding: 100px;
 
 }
+.video-will-be-fine{
+	
+
+	float: left;
+	margin-left: 14%;
+	margin-top: 3%;
+
+}
+.video-will-be-fine-2{
+	float: right;
+	margin-top: 3%;
+	margin-right: 13%;
+}
+.video-will-be-fine-3{
+		float: right;
+	margin-top: 1.9%;
+	margin-right: 13%;
+}
 @media screen and (max-width: 1080px) {
 	body{
 		background-image: url(billy-mob.jpg);
@@ -45,4 +63,31 @@ header a{
 		
 
 	}
+
+}
+@media screen and (max-width: 1080px){
+	iframe{
+		height: 230px;
+		width: 410px;
+		float: right;
+		display: inline-table;
+
+
+
+	}
+	.video-will-be-fine{
+    float: right;
+    margin-top: -135%;
+    margin-right: 5%
+  }
+  .video-will-be-fine-2{
+    float: right;
+    margin-top: -85%;
+    margin-right: 5%
+  }
+  .video-will-be-fine-3{
+    float: right;
+    margin-top: -35%;
+    margin-right: 5%
+  }
 }
